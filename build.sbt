@@ -4,8 +4,6 @@ sonatypeSettings
 
 profileName := "morgaroth"
 
-sbtPlugin := true
-
 name := "morgaroth-utils"
 
 version := "1.0"
