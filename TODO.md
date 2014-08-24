@@ -6,4 +6,10 @@
 * zrobić repo GITA, żeby były linki w pomie
 * w konsoli:
     * ;clean;compile
-    * chyba publishSigned
+    * chyba publishSigned, po wpisaniu hasła publish signed wyśle to na neta
+    * pójść na https://oss.sonatype.org/, zalogować się
+    * przejść do menu po lewej StagingRepositories
+    * znaleźć swoje
+    * zaznaczyć, kliknąć Close
+    * po chwili odświeżyć stronkę, powinno się dać teraz zaznaczyć nasze i kliknąć Release
+    * po chwili pozycja mowinna zniknąć, a lib powinien być dostepny przez sbt
