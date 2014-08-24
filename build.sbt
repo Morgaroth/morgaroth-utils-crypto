@@ -4,15 +4,22 @@ sonatypeSettings
 
 profileName := "morgaroth"
 
-name := "morgaroth-utils"
+name := "morgaroth-utils-crypto"
 
-version := "1.0"
+version := "1.0.0"
 
 organization := "pl.morgaroth"
 
 publishMavenStyle := true
 
-pomExtra := <url>GIT_HTTP</url>
+resolvers += Resolver.sonatypeRepo("releases")
+
+libraryDependencies ++= Seq(
+  "org.cryptonode.jncryptor"  %   "jncryptor"       % "1.0.1",
+  "pl.morgaroth"              %%  "morgaroth-utils" % "1.1.0"
+)
+
+pomExtra := <url>https://github.com/Morgaroth/morgaroth-utils-crypto</url>
   <licenses>
     <license>
       <name>BSD-style</name>
@@ -21,8 +28,8 @@ pomExtra := <url>GIT_HTTP</url>
     </license>
   </licenses>
   <scm>
-    <url>GIT_SSH</url>
-    <connection>scm:git:$GIT_SSH</connection>
+    <url>git@github.com:Morgaroth/morgaroth-utils-crypto.git</url>
+    <connection>scm:git:git@github.com:Morgaroth/morgaroth-utils-crypto.git</connection>
   </scm>
   <developers>
     <developer>
