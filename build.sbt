@@ -28,7 +28,7 @@ pomExtra := <url>GIT_HTTP</url>
   </scm>
   <developers>
     <developer>
-      <id>morgaroth</id>
-      <name>Mateusz Jaje</name>
+      <id>$DEVELOPER_ID</id>
+      <name>$DEVELOPER_FULL_NAME</name>
     </developer>
   </developers>
